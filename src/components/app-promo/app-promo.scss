@@ -1,0 +1,33 @@
+.promo {
+    min-height: 260px;
+    padding-top: 30px;
+    color: #fff;
+    &__title {
+        margin-top: 60px;
+    }
+    &__subtitle {
+        margin-top: 34px;
+        text-align: center;
+    }
+    .devider {
+        span {
+            background: #fff;
+        }
+        svg {
+            fill: #fff;
+        }
+    }
+}
+
+.app {
+    .promo {
+        min-height: 640px;
+        &__title {
+            margin-top: 110px;
+            text-align: center;
+        }
+    }
+}
+
+
+
